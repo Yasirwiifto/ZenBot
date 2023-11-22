@@ -1,7 +1,7 @@
 /* General */
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: "Oxygen", sans-serif;
   background-color: #ece3ce;
 }
 
@@ -44,4 +44,26 @@ body {
 
 #menu a:hover {
   text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  background-color: #3a4d39;
+  padding: 15px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 130%;
+  color: #ece3ce;
+  letter-spacing: 1px;
+}
+
+.crew-footer {
+  text-decoration: none;
+  color: #ece3ce;
+}
+
+.crew-footer:hover {
+  text-decoration: underline;
+  color: #ece3ce;
 }
