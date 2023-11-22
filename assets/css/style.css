@@ -46,6 +46,27 @@ body {
   text-decoration: underline;
 }
 
+
+
+/* ZenBot Section */
+
+.zenbot-container {
+  height: 80vh;
+  border-radius: 20px;
+}
+
+.output {
+  height: 100%;
+  border: 1px solid #739072;
+  border-radius: 20px;
+  overflow: auto;
+  font-size: 1.2rem;
+  font-family: "Oxygen", sans-serif;
+  padding: 1rem;
+}
+
+
+
 /* Footer */
 
 footer {
