@@ -1,0 +1,47 @@
+/* General */
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #ece3ce;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #3a4d39;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(236, 227, 206, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#menu {
+  line-height: 90%;
+}
+
+#logo {
+  text-transform: uppercase;
+}
+
+#menu li,
+#logo {
+  padding: 0 15px;
+  font-size: 190%;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+#menu a,
+#logo {
+  text-decoration: none;
+  color: #ece3ce;
+  transition: all 0.2s ease-in-out;
+}
+
+#menu .active {
+  color: #739072;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
