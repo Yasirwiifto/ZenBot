@@ -15,9 +15,12 @@ const generate = async () => {
 
         const text = await response.text();
         resultText.innerText = text;
+        promptInput.value = '';
+
     } catch (error) {
         console.error("Error:", error);
         resultText.innerText = "Error occurred while generating.";
+        promptInput.value = '';
     }
 };
 
