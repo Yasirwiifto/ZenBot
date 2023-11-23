@@ -1,5 +1,6 @@
 # ZenBot
 A mental Health chatbot for the C.I Movember London Hackathon
+![Zenbot home screen](/assets/images/sitemockup.png)
 
 ## Introduction
 
@@ -10,12 +11,15 @@ A mental Health chatbot for the C.I Movember London Hackathon
 3. [Technologies](#technologies)
 4. [Deployment](#deployment)
 3. [Testing](#testing)
-4. [Credit](#credit)
+4. [Credits](#credits)
 5. [Contributors](#contributors)
 
 ## Features
 
 ## Wireframes
+
+![Zenbot wireframes](/assets/images/zen-bot-wireframes.png)
+
 
 ## Technologies
 
@@ -23,7 +27,11 @@ A mental Health chatbot for the C.I Movember London Hackathon
 
 ## Testing
 
-## Credit
+## Credits
+The chosen colour pallete was from 
+[colour hunt](https://colorhunt.co/palette/ece3ce7390724f6f523a4d39)
+
+
 
 ## Contributors
 
