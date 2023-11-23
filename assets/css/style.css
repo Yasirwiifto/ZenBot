@@ -3,11 +3,14 @@
 body {
   font-family: "Oxygen", sans-serif;
   background-color: #ece3ce;
+  background-image: url("/assets/images/bg-img.jpg");
+  background-repeat: no-repeat;
 }
 
 /* Navbar */
 .navbar {
   background-color: #3a4d39;
+  padding-top: 0px;
 }
 
 .navbar-toggler-icon {
@@ -15,7 +18,7 @@ body {
 }
 
 #menu {
-  line-height: 90%;
+  line-height: 70%;
 }
 
 #logo {
@@ -65,7 +68,7 @@ body {
 
 /* Crew page */
 h1 {
-  color: #3a4d39;
+  color: #ece3ce;
   text-align: center;
   margin: 20px;
 }
@@ -92,7 +95,7 @@ footer {
   padding: 15px;
   width: 100%;
   margin-top: 10px;
-  font-size: 130%;
+  font-size: 110%;
   color: #ece3ce;
   letter-spacing: 1px;
 }
