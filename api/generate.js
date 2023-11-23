@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
             body: JSON.stringify({
                 model: "gpt-3.5-turbo",
                 messages: [{ role: "user", content }],
-                max_tokens: 50,
+                temperature: 1.2,
             }),
         });
 
