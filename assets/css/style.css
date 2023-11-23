@@ -5,6 +5,7 @@ body {
   background-color: #ece3ce;
   background-image: url("/assets/images/bg-img.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Navbar */
@@ -115,6 +116,10 @@ footer {
   background-color: #fff;
   border-radius: 10px;
 }
+.resource-container h1 {
+  color: #3a4d39;
+  font-weight: 700;
+}
 
 h3 {
   text-align: center;
@@ -124,6 +129,8 @@ h3 {
 }
 
 .resource-img {
+  max-width: 100%;
+  height: auto;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
