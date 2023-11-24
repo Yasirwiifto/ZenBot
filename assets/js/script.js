@@ -13,6 +13,8 @@ const generate = async () => {
         return;
     }
 
+    const cleanedInput = promptInput.value.replace(/\/|\n/g, "");
+
     // Prompt loading dynamic changes
     resultText.innerText = "Generating...";
     resultText.classList.add("font-weight-bold");
@@ -24,7 +26,7 @@ const generate = async () => {
         const response = await fetch('/api/generate', {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ content: promptInput.value }),
+            body: JSON.stringify({ content: cleanedInput }),
         });
 
         const text = await response.text();
