@@ -2,7 +2,7 @@
 
 A mental Health chatbot for the C.I Movember London Hackathon
 
-![Zenbot home screen](/assets/images/sitemockup.png)
+![Zenbot home screen](/docs/sitemockup.png)
 ***
 
 ## Introduction
@@ -56,7 +56,7 @@ A mental Health chatbot for the C.I Movember London Hackathon
 
 ### **Wireframes:**
 
-![Zenbot wireframes](/assets/images/zen-bot-wireframes.png)
+![Zenbot wireframes](/docs/zen-bot-wireframes.png)
 ***
 
 ## **Features**
