@@ -2,7 +2,7 @@
 
 A mental Health chatbot for the C.I Movember London Hackathon
 
-![Zenbot home screen](/assets/images/sitemockup.png)
+![Zenbot home screen](/docs/sitemockup.png)
 ***
 
 ## Introduction
@@ -30,9 +30,9 @@ A mental Health chatbot for the C.I Movember London Hackathon
 ## **Planning stage**
 ### **Target Audiences:**
 
-* 
-* 
-* 
+* Men who are experiencing problems with mental health
+* Men who are struggling to find a way to talk about their problems
+* Men who are looking for advice and support for their mental health
 
 ***
 ### **User Stories:**
@@ -49,14 +49,14 @@ A mental Health chatbot for the C.I Movember London Hackathon
 
 ### **Site Aims:**
 
-* 
-* 
-* 
+* The main aim of the site is to provide information to men experiencing mental health issues.
+* This information is supplied via a chatbot, powered by chatGPT, which men can use to talk about their feelings
+* Supplemental to this is a 'Toolbox' page, which has links to various types of information, grouped into 6 sections.
 ***
 
 ### **Wireframes:**
 
-![Zenbot wireframes](/assets/images/zen-bot-wireframes.png)
+![Zenbot wireframes](/docs/zen-bot-wireframes.png)
 ***
 
 ## **Features**
@@ -76,6 +76,8 @@ A mental Health chatbot for the C.I Movember London Hackathon
 * HTML
 * CSS
 * JavaScript
+* API's
+* chatGPT
 
 ***
 
