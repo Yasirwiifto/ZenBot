@@ -1,31 +1,97 @@
 # ZenBot
+
 A mental Health chatbot for the C.I Movember London Hackathon
+
 ![Zenbot home screen](/assets/images/sitemockup.png)
+***
 
 ## Introduction
 
 ## Table Contents
+1. [**ZenBot**](#zenbot)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***Wireframes***](#wireframes)
+    * [***Color Scheme***](#color-scheme)
+    * [***Typography***](#typography)
+1. [**Features**](#features)
+    * [**Home page**](#home-page)
+    * [**Resources page**](#resources-page)
+    * [**About page**](#about-page)
+1. [**Technologies**](#technologies)
+1. [**Deployment**](#deployment)
+1. [**Testing**](#testing)
+1. [**Credits**](#credits)
+1. [**Contributors**](#contributors)
+***
 
-1. [Features](#features)
-2. [Wireframes](#wireframes)
-3. [Technologies](#technologies)
-4. [Deployment](#deployment)
-3. [Testing](#testing)
-4. [Credits](#credits)
-5. [Contributors](#contributors)
+## **Planning stage**
+### **Target Audiences:**
 
-## Features
+* 
+* 
+* 
 
-## Wireframes
+***
+### **User Stories:**
+
+* As a user,
+     I want to navigate through the pages and find what I require quickly and easily.
+* As a user,
+      I want to see a secure and confidential page. Where I can explore mental health without fear of judgment and accessing information on common issues anonymously.
+* As a user,
+     I want to see a toolbox of self-help resources, including guided exercises, journaling prompts, and relaxation techniques that I can try in the privacy of my own space.
+* As a user,
+      I want to see success stories of men who have overcome mental health challenges, showcasing different paths to recovery and emphasizing that seeking help is a sign of strength.
+***
+
+### **Site Aims:**
+
+* 
+* 
+* 
+***
+
+### **Wireframes:**
 
 ![Zenbot wireframes](/assets/images/zen-bot-wireframes.png)
+***
 
+## **Features**
 
-## Technologies
+### ***Home Page:***
+     Header with a logo of the website and navbar.
+
+### ***Resources Page:***
+    Header with a logo of the website and navbar.
+### ***About Page:***
+     Header with a logo of the website and navbar.
+
+***
+
+## **Technologies**
+
+* HTML
+* CSS
+* JavaScript
+
+***
 
 ## Deployment
 
+* 
+* 
+* 
+***
+
 ## Testing
+
+* 
+* 
+* 
+***
 
 ## Credits
 The chosen colour pallete was from 
@@ -35,3 +101,11 @@ The chosen colour pallete was from
 
 ## Contributors
 
+* 
+* 
+* 
+* 
+* 
+* 
+
+***
