@@ -15,7 +15,8 @@ const generate = async () => {
 
     // Prompt loading dynamic changes
     resultText.innerText = "Generating...";
-    spinner.classList.remove("hidden");
+    resultText.classList.add("font-weight-bold");
+    spinner.classList.remove("d-none");
     generateBtn.disabled = true;
 
     try {
@@ -29,9 +30,10 @@ const generate = async () => {
         const text = await response.text();
         // post-prompt-load dynamic changes
         resultText.innerText = "";
+        resultText.classList.remove("font-weight-bold");
         resultText.innerText = text;
         promptInput.value = '';
-        spinner.classList.add("hidden");
+        spinner.classList.add("d-none");
         generateBtn.disabled = false;
 
     } catch (error) {
