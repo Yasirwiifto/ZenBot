@@ -1,199 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    >
-    <meta
-      name="description"
-      content="Data and statistics about mental health"
-    >
-    <!-- Bootstrap CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    >
-    <!-- Googlefonts CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&family=Oxygen:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    >
-    <!-- Fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/d1557c7a8f.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>ZenBot</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="index.html" id="logo">ZenBot</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" id="menu">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"> <span>Home</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="toolbox.html"
-                >Toolbox <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="crew.html">Crew</a>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Data and statistics about mental health">
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Googlefonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&family=Oxygen:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/d1557c7a8f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>ZenBot</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html" id="logo">ZenBot</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="menu">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"> <span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="toolbox.html">Toolbox <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="crew.html">Crew</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="p-3">
+    <div class="container resource-container p-4">
+      <h1 id="facts-heading">Facts About Men's Mental Health</h1>
+
+
+      <div class="img-container">
+        <img id="facts-img1" src="assets/images/mens-mental-health-infographic-min.jpg"
+          alt="what 1000 men said about thier mental health info-graphic">
+
+        <!-- <img id="facts-img2" src="assets/images/mensuicidebyage.jpg"
+          alt="graph showing mens suicide rates 1981 to 2021"> -->
+
+      </div>
+
+      <h3 id="facts-links-heading">Useful Resources on Men's Mental Health</h3>
+
+      <ul id="facts-links">
+        <li><a href="https://headsupguys.org/opening-up-about-depression/" target="_blank">Headsupguys</a></li>
+        <li><a href="https://us.movember.com/" target="_blank">Movember foundation</a></li>
+        <li><a href="https://mantherapy.org/" target="_blank">Man therapy</a></li>
+        <li><a href="https://menshealthnetwork.org/" target="_blank">Men's health network</a></li>
+      </ul>
+      <div class="row mt-5">
+        <div class="col back-to-toolbox">
+          <a href="toolbox.html"
+            ><button type="button" class="btn btn-sm toolbox-btn">
+              Back to Toolbox
+            </button></a
+          >
         </div>
-      </nav>
-    </header>
-    <main class="p-3">
-        <div class="container resource-container p-4">
-            <h1>Facts about men's health</h1>
-            <img
-                src="assets/images/menshealthinfog.jpg"
-                alt="infographic on mens health showing man climbing a cliff"  
-            >
+      </div>
+    </div>
+  </main>
 
-            <img
-                src="assets/images/mensuicidebyage.jpg"
-                alt="graph showing mens suicide rates 1981 to 2021"   
-            >
-            
-            <h3>10 essential facts to keep in mind about men's health</h3>
-            <ol>
-                <li><b>Heart Health:</b> Men are more likely to develop heart disease than women.
-                     Factors like high blood pressure, high cholesterol, and smoking significantly 
-                     contribute to heart issues.  Regular exercise and a healthy diet 
-                     can help lower these risks.
-                </li>
-                <br>
-                <li><b>Prostate Health:</b> Prostate cancer is one of the most common cancers in men.
-                     Regular screenings and discussions with a healthcare provider about the 
-                     risks and benefits of testing are crucial, especially for men over 50 
-                     or those with a family history.</li>
-                <br>
-                <li><b>Mental Health:</b>Men can face challenges in discussing and seeking help for 
-                    mental health issues. Depression and anxiety affect men, but they might express
-                    these feelings differently, such as through anger or irritability. Encouraging
-                    open conversations and seeking support when needed is important.        
-                </li>
-                <br>
-                <li><b>Testicular Health:</b>Testicular cancer is more common in younger men. Regular 
-                    self-exams can help in early detection. It's also important to be aware of any
-                     changes in size, shape, or lumps in the testicles.     
-                </li>
-                <br>
-                <li><b>Weight Management:</b> Men are prone to carrying excess weight around the abdomen, 
-                    which can increase the risk of various health issues like diabetes, heart disease,
-                     and certain cancers. Regular exercise and a balanced diet are key.    
-                </li>
-                <br>
-                <li><b>Substance Abuse:</b> Men are more likely than women to engage in excessive drinking
-                     and substance abuse. These habits can have severe consequences on overall health, 
-                     including mental health and organ function.  
-                </li>
-                <br>
-                <li><b>Regular Checkups:</b>Many men avoid regular check-ups or visits to the doctor unless 
-                    they feel seriously unwell. However, routine check-ups can catch problems early or help 
-                    prevent them altogether.  
-                </li>
-                <br>
-                <li><b>Bone Health:</b>Osteoporosis is often seen as a condition affecting women, but it's also 
-                    a concern for men, especially as they age. Getting enough calcium and vitamin D and 
-                    engaging in weight-bearing exercises can help maintain bone health.  
-                </li>
-                <br>
-                <li><b>Sexual Health:</b>Issues like erectile dysfunction or low testosterone levels can affect men's
-                     sexual health. It's essential to have open discussions with healthcare providers to explore
-                      available treatments and solutions. 
-                </li>
-                <br>
-                <li><b>Work-Life Balance:</b> Balancing work, family, and personal time is crucial for overall well-being. 
-                    Stress from work or other life pressures can significantly impact men's health. 
-                </li>                   
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-4 text-center text-md-end">
+        Code Institute Movember Hackathon 2023
+      </div>
+      <div class="col-12 col-md-4 text-center text-md-end">
+        Copyright © ZenBot Collective
+      </div>
+      <div class="col-12 col-md-4 text-center text-md-start">
+        <a href="crew.html" class="crew-footer" aria-label="Here, link to crew page">Crew <i
+            class="fa-brands fa-github"></i> and
+          <i class="fa-brands fa-linkedin"></i> links</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+  <!-- Bootstrap Script files -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
 
-            </ol>
-           
-            <p>Remember, each person's health needs are unique. Regular communication with healthcare providers, maintaining
-                 a healthy lifestyle, and seeking help when needed are vital for men's health and well-being. </p>      
-                   
-          
-            
-            <h3>Links to more facts about men's health</h3>
-            
-            <p>For more information and facts on mens mental health,maybe take a look at some of the links below.</p>
-            <p><a href="https://headsupguys.org/opening-up-about-depression/">Headsupguys</a></p>
-            <p><a href="https://us.movember.com/">Movember foundation</a></p>
-            <p><a href="https://mantherapy.org/">Man therapy</a></p>
-            <p><a href="https://menshealthnetwork.org/">Men's health network</a></p>
-
-            <div class="row mt-5">
-              <div class="col back-to-toolbox">
-                <a href="toolbox.html"
-                  ><button type="button" class="btn btn-sm toolbox-btn">
-                    Back to Toolbox
-                  </button></a
-                >
-              </div>
-            </div>
-          
-        </div>
-    </main>
-
-    <footer class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-md-4 text-center text-md-end">
-            Code Institute Movember Hackathon 2023
-          </div>
-          <div class="col-12 col-md-4 text-center text-md-end">
-            Copyright © ZenBot Collective
-          </div>
-          <div class="col-12 col-md-4 text-center text-md-start">
-            <a
-              href="crew.html"
-              class="crew-footer"
-              aria-label="Here, link to crew page"
-              >Crew <i class="fa-brands fa-github"></i> and
-              <i class="fa-brands fa-linkedin"></i> links</a
-            >
-          </div>
-        </div>
-      </footer>
-      <script src="assets/js/script.js"></script>
-      <!-- Bootstrap Script files -->
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"
-      ></script>
-    </body>
-  </html>
+</html>
