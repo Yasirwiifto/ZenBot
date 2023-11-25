@@ -188,3 +188,20 @@ h3 {
   width: 100%;
 }
 
+.back-to-toolbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbox-btn {
+  border-color: #3a4d39;
+  color: #ece3ce;
+  background-color: #3a4d39;
+  transition: all 0.2s ease-in-out;
+}
+
+.toolbox-btn:hover {
+  color: #3a4d39;
+  background-color: #ece3ce;
+}
