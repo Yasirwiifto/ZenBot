@@ -1,6 +1,6 @@
 # ZenBot
 
-A mental Health chatbot for the C.I Movember London Hackathon developed by the Zenbot collective team in November 202
+A mental Health chatbot for the C.I Movember London Hackathon developed by the Zenbot collective team in November 2023.
 
 ![Zenbot home screen](/docs/sitemockup.png)
 ***
