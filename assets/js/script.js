@@ -13,7 +13,7 @@ const generate = async () => {
         return;
     }
 
-    const cleanedInput = promptInput.value.replace(/\\n|\/|\n/g, "");
+    const cleanedInput = promptInput.value;
 
     // Prompt loading dynamic changes
     resultText.innerText = "Generating...";
@@ -33,7 +33,7 @@ const generate = async () => {
         // post-prompt-load dynamic changes
         resultText.innerText = "";
         resultText.classList.remove("font-weight-bold");
-        resultText.innerText = text;
+        resultText.innerHTML = text.replace(/\n/g, "<br>");
         promptInput.value = '';
         spinner.classList.add("d-none");
         generateBtn.disabled = false;
