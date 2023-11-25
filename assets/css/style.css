@@ -81,6 +81,10 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+#facts-heading {
+  margin-bottom: 50px;
+}
+
 div.banner {
   background: #3a4d39;
   margin: 0 auto auto;
@@ -95,6 +99,38 @@ div.banner {
 img {
   width: 100%;
   height: 100%;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#facts-img1 {
+  width: 50%;
+  height: 50%;
+  /* align-self: center; */
+  margin-bottom: 30px;
+}
+
+#facts-img2 {
+  width: 60%;
+  height: 60%;
+}
+
+#facts-links-heading {
+  margin-bottom: 20px;
+}
+
+#facts-links {
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+#facts-links li {
+  text-align: center;
+  margin: 10px;
 }
 
 .card-icon {
