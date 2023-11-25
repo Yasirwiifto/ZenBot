@@ -54,6 +54,10 @@ body {
 
 /* ZenBot Section */
 
+#meta-sm {
+  display: none;
+}
+
 .zenbot-container {
   height: 80vh;
   border-radius: 20px;
@@ -204,4 +208,16 @@ h3 {
 .toolbox-btn:hover {
   color: #3a4d39;
   background-color: #ece3ce;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  #meta-lg {
+    display: none;
+  }
+
+  #meta-sm {
+    display: block;
+  }
 }
