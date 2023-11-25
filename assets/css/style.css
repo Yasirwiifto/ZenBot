@@ -72,10 +72,24 @@ body {
   height: 100%;
   border: 1px solid #739072;
   border-radius: 20px;
-  overflow: auto;
+  overflow-y: auto;
   font-size: 1.2rem;
   font-family: "Oxygen", sans-serif;
   padding: 1rem;
+}
+
+.btn-colour {
+  background-color: #3a4d39;
+  border-color: #3a4d39;
+  color: #ece3ce;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.btn-colour:hover {
+  background-color: #ece3ce;
+  border-color: #3a4d39;
+  color: #3a4d39;
 }
 
 /* Crew page */
