@@ -57,6 +57,7 @@ body {
 .zenbot-container {
   height: 80vh;
   border-radius: 20px;
+  overflow-y: auto;
 }
 
 .welcome {
