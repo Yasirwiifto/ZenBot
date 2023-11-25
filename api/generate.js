@@ -1,5 +1,8 @@
+// Backups for the max duration and dynamic parameters defined in vercel.json
+export const maxDuration = 300;
+export const dynamic = 'force-dynamic';
 
-module.exports = async (req, res) => {
+export default async (req, res) => {
 
     const { content } = req.body;
 
