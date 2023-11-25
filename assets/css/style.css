@@ -158,3 +158,22 @@ h3 {
 .resource-img:hover {
   opacity: 0.5;
 }
+
+.supp-img {
+  border-radius: 4px;
+}
+
+.supp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-link {
+  color: #3a4d39;
+  text-decoration: none;
+}
+
+.support-link:hover {
+  color: #739072;
+}
