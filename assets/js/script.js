@@ -13,7 +13,7 @@ const generate = async () => {
         return;
     }
 
-    const cleanedInput = promptInput.value.replace(/\/|\n/g, "");
+    const cleanedInput = promptInput.value.replace(/\\n|\/|\n/g, "");
 
     // Prompt loading dynamic changes
     resultText.innerText = "Generating...";
