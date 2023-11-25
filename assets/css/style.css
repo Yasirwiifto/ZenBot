@@ -57,6 +57,7 @@ body {
 .zenbot-container {
   height: 80vh;
   border-radius: 20px;
+  overflow-y: auto;
 }
 
 .welcome {
@@ -177,3 +178,13 @@ h3 {
 .support-link:hover {
   color: #739072;
 }
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.content {
+  width: 100%;
+}
+
