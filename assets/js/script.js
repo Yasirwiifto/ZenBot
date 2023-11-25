@@ -33,7 +33,7 @@ const generate = async () => {
         // post-prompt-load dynamic changes
         resultText.innerText = "";
         resultText.classList.remove("font-weight-bold");
-        resultText.innerHTML = text.message;
+        resultText.innerHTML = text;
         promptInput.value = '';
         spinner.classList.add("d-none");
         generateBtn.disabled = false;
