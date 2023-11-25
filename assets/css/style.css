@@ -158,3 +158,12 @@ h3 {
 .resource-img:hover {
   opacity: 0.5;
 }
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.content {
+  width: 100%;
+}
